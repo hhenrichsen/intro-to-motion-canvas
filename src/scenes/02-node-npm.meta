@@ -1,0 +1,18 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "node in",
+      "targetTime": 0
+    },
+    {
+      "name": "node download link",
+      "targetTime": 2.2734343236555903
+    },
+    {
+      "name": "end node npm",
+      "targetTime": 5.767362522819739
+    }
+  ],
+  "seed": 2675414207
+}

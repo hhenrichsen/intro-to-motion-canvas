@@ -1,0 +1,18 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "graphing",
+      "targetTime": 5
+    },
+    {
+      "name": "sorting",
+      "targetTime": 6
+    },
+    {
+      "name": "end of highlight reel",
+      "targetTime": 13.618243478341286
+    }
+  ],
+  "seed": 3688380123
+}

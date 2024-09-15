@@ -1,0 +1,65 @@
+services:
+  render: &render
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    container_name: render-1
+    environment:
+      - START=0
+      - END=10
+    volumes:
+      - ../container-output:/app/output
+  render2:
+    <<: *render
+    container_name: render-2
+    environment:
+      - START=10
+      - END=20
+  render3:
+    <<: *render
+    container_name: render-3
+    environment:
+      - START=20
+      - END=30
+  render4:
+    <<: *render
+    container_name: render-4
+    environment:
+      - START=30
+      - END=40
+  render5:
+    <<: *render
+    container_name: render-5
+    environment:
+      - START=40
+      - END=50
+  render6:
+    <<: *render
+    container_name: render-6
+    environment:
+      - START=50
+      - END=60
+  render7:
+    <<: *render
+    container_name: render-7
+    environment:
+      - START=60
+      - END=70
+  render8:
+    <<: *render
+    container_name: render-8
+    environment:
+      - START=70
+      - END=80
+  render9:
+    <<: *render
+    container_name: render-9
+    environment:
+      - START=80
+      - END=90
+  render10:
+    <<: *render
+    container_name: render-10
+    environment:
+      - START=90
+      - END=100

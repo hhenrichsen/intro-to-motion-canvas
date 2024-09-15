@@ -1,0 +1,34 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "intro example",
+      "targetTime": 1
+    },
+    {
+      "name": "intro meta",
+      "targetTime": 4
+    },
+    {
+      "name": "intro project",
+      "targetTime": 6.5
+    },
+    {
+      "name": "intro vite config",
+      "targetTime": 9
+    },
+    {
+      "name": "transition example",
+      "targetTime": 11.5
+    },
+    {
+      "name": "transition yield",
+      "targetTime": 13.919513823729284
+    },
+    {
+      "name": "file structure out",
+      "targetTime": 18.419513823729282
+    }
+  ],
+  "seed": 914024883
+}

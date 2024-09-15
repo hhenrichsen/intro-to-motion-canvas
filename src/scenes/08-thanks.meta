@@ -1,0 +1,10 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "out",
+      "targetTime": 7
+    }
+  ],
+  "seed": 354960359
+}

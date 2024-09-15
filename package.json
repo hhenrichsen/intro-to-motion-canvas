@@ -1,0 +1,47 @@
+{
+  "name": "motion-canvas-courses",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "vite",
+    "serve": "vite",
+    "lint-staged": "lint-staged",
+    "lint": "npm run eslint && npm run prettier",
+    "format": "npm run eslint:fix && npm run prettier:fix",
+    "eslint": "eslint \"**/*.ts?(x)\"",
+    "eslint:fix": "eslint --fix \"**/*.ts?(x)\"",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "build": "tsc && vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.10.2",
+    "@hhenrichsen/canvas-commons": "^0.10.2",
+    "@lezer/javascript": "^1.4.16",
+    "@lezer/json": "^1.0.2",
+    "@motion-canvas/2d": "^3.17.1",
+    "@motion-canvas/core": "^3.17.0",
+    "@motion-canvas/ffmpeg": "^3.17.0"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "^3.17.0",
+    "@motion-canvas/vite-plugin": "^3.17.0",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "puppeteer": "^22.8.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.0.0",
+    "vitest": "^1.6.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint --fix",
+    "*.{js,jsx,ts,tsx,md,scss,json,mjs}": "prettier --write"
+  }
+}

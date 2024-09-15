@@ -1,0 +1,14 @@
+.git
+.github
+.husky
+.idea
+node_modules
+output
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitingore
+.prettierignore
+.prettierrc
+bun.lockb
+README.md

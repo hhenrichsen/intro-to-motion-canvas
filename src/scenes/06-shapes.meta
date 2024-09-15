@@ -1,0 +1,66 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "add shape",
+      "targetTime": 1
+    },
+    {
+      "name": "createRef",
+      "targetTime": 2
+    },
+    {
+      "name": "scale circle",
+      "targetTime": 3
+    },
+    {
+      "name": "durations",
+      "targetTime": 4
+    },
+    {
+      "name": "scale back",
+      "targetTime": 5
+    },
+    {
+      "name": "shape types",
+      "targetTime": 6
+    },
+    {
+      "name": "star vs none",
+      "targetTime": 7.5
+    },
+    {
+      "name": "no star wait",
+      "targetTime": 9
+    },
+    {
+      "name": "doing multiple things at once",
+      "targetTime": 12.5
+    },
+    {
+      "name": "moving shapes around",
+      "targetTime": 20
+    },
+    {
+      "name": "multiple shapes",
+      "targetTime": 29.5
+    },
+    {
+      "name": "zIndex",
+      "targetTime": 33
+    },
+    {
+      "name": "fragment",
+      "targetTime": 37.5
+    },
+    {
+      "name": "child shapes",
+      "targetTime": 36.5
+    },
+    {
+      "name": "end shapes",
+      "targetTime": 38
+    }
+  ],
+  "seed": 2953989392
+}

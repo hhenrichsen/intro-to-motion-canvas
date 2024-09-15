@@ -1,0 +1,10 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "open terminal",
+      "targetTime": 0
+    }
+  ],
+  "seed": 2675414207
+}

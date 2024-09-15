@@ -1,0 +1,58 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "iterate makeNumbers",
+      "targetTime": 4
+    },
+    {
+      "name": "output generator",
+      "targetTime": 9
+    },
+    {
+      "name": "loop makeNumbers",
+      "targetTime": 13
+    },
+    {
+      "name": "iterate makeNumbers loop",
+      "targetTime": 17
+    },
+    {
+      "name": "output loop",
+      "targetTime": 19
+    },
+    {
+      "name": "intro groupedNumbers",
+      "targetTime": 25
+    },
+    {
+      "name": "highlight yieldstar",
+      "targetTime": 29
+    },
+    {
+      "name": "iterate groupedNumbers",
+      "targetTime": 30
+    },
+    {
+      "name": "output yieldstar",
+      "targetTime": 33
+    },
+    {
+      "name": "yield yield",
+      "targetTime": 45.5
+    },
+    {
+      "name": "consume yield yield",
+      "targetTime": 48.5
+    },
+    {
+      "name": "output yield yield",
+      "targetTime": 53.59312093420955
+    },
+    {
+      "name": "end generators",
+      "targetTime": 61.59312093420955
+    }
+  ],
+  "seed": 1604489841
+}
